@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Databases and SQLite temporary write logs
+*.db
+*.db-shm
+*.db-wal
+faq.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Package manager locks (optional for portfolios)
+uv.lock
+
+# macOS system settings clutter
+.DS_Store
+
+# IDEs / Editors
+.vscode/
+.idea/
