@@ -1,15 +1,38 @@
-# LLM Zoomcamp: Homework & Practices
+# LLM Zoomcamp: Homework & Projects
 
-This repository contains my practical projects, implementations, and homework assignments for the LLM Zoomcamp. The focus of this workspace is building production-ready Large Language Model applications, optimizing Retrieval-Augmented Generation (RAG) systems, and exploring orchestration.
+This is my personal workspace for the DataTalksClub LLM Zoomcamp course. It contains my homework assignments, practice code, and hands-on experiments for building production-ready LLM and RAG applications.
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
-* `main.py` / `ingest.py` / `rag_helper.py` — Modular Python scripts handling data processing, chunking, embedding generation, and LLM querying.
-* `*.ipynb` — Jupyter Notebook workspaces used for interactive data exploration, pipeline prototyping, and step-by-step experimentation.
-* `pyproject.toml` — Modern Python dependency configuration managing the project environment.
+* **`week1/`** — All assignments, local scripts, and notebooks for Module 1.
+* **`pyproject.toml`** — Global project configuration file managing dependencies using `uv`.
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack
 
 * **Language:** Python
+* **Package Manager:** `uv`
+* **Search Engine:** `minsearch`
 * **LLM Orchestration:** Custom RAG pipelines
-* **Environment Management:** Managed environment via `pyproject.toml` configuration
+
+## 📝 Course & Homework Tracking
+
+* **Module 1: Agentic RAG** — Introduction to RAG, token counting, and basic retrieval
+  * [ ] Homework 1 (week1/homework1)
+* **Module 2: Vector Search** — Semantic search with embeddings, PGVector, and minsearch
+  * [ ] Homework 2 *(Coming Soon)*
+* **Module 3: Orchestration** — AI orchestration pipelines using Kestra
+  * [ ] Homework 3 *(Coming Soon)*
+* **Module 4: Evaluation** — Measuring retrieval and answer quality using LLM-as-a-Judge
+  * [ ] Homework 4 *(Coming Soon)*
+* **Module 5: Monitoring** — Tracking user feedback and system health with live dashboards
+  * [ ] Homework 5 *(Coming Soon)*
+* **Module 6: Best Practices** — Hybrid search (vector + keyword) and reranking techniques
+  * [ ] Homework 6 *(Coming Soon)*
+* **Module 7: End-to-End Project** — Implementing a complete fitness assistant workflow
+  * [ ] Project Phase *(Coming Soon)*
+* **Capstone Project** — Building, evaluating, and shipping my own complete RAG application
+  * [ ] Final Capstone *(Coming Soon)*
+
+---
+
+*This repository is updated as the course progresses through each module.*
