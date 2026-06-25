@@ -4,7 +4,8 @@ This is my personal workspace for the DataTalksClub LLM Zoomcamp course. It cont
 
 ## 📁 Repository Structure
 
-* **`week1/`** — All assignments, local scripts, and notebooks for Module 1.
+* **`module1`
+* /`** — All assignments, local scripts, and notebooks for Module 1.
 * **`pyproject.toml`** — Global project configuration file managing dependencies using `uv`.
 
 ## 🛠️ Tech Stack
@@ -17,7 +18,7 @@ This is my personal workspace for the DataTalksClub LLM Zoomcamp course. It cont
 ## 📝 Course & Homework Tracking
 
 * **Module 1: Agentic RAG** — Introduction to RAG, token counting, and basic retrieval
-  * [ ] [Homework 1](week1/homework1)
+  * [ ] [Homework 1](module1/homework1)
 * **Module 2: Vector Search** — Semantic search with embeddings, PGVector, and minsearch
   * [ ] Homework 2 *(Coming Soon)*
 * **Module 3: Orchestration** — AI orchestration pipelines using Kestra
