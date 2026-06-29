@@ -8,9 +8,8 @@ We will cover everything from the mathematical foundations of text embeddings to
 
 ## 📂 Directory Structure
 
-* `code/` — Practical notebook implementations, homework scripts, and step-by-step lab exercises.
-* `embed/` — Configuration scripts and local models for the embedding execution runtimes.
-
+* `homework2` — Dedicated folder containing my Module 2 homework and evaluation notebooks.
+* `*.ipynb` — Step-by-step lesson notebooks covering semantic search, embeddings generation, and vector database indexing.
 ---
 
 ## 📚 Syllabus & Lessons
@@ -32,6 +31,6 @@ The curriculum covers vector search end-to-end, moving from basic in-memory math
 
 ## 📝 Homework
 
-Complete the tracking assignments found in the [Homework](./homework/) directory to solidify your understanding of cosine similarity mechanics, indexing workflows, and hybrid Reciprocal Rank Fusion (RRF) alignments.
+Complete the tracking assignments found in the [Homework2](./homework2/homework2.ipynb) directory to solidify your understanding of cosine similarity mechanics, indexing workflows, and hybrid Reciprocal Rank Fusion (RRF) alignments.
 
 ---

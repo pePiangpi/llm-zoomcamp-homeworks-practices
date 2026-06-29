@@ -2,15 +2,13 @@
 
 This is my personal workspace for the DataTalksClub LLM Zoomcamp course. It contains my homework assignments, practice code, and hands-on experiments for building production-ready LLM and RAG applications.
 
-
 ## 📁 Repository Structure
 
 * **`module1/`** — All assignments, local scripts, and notebooks for structural Retrieval-Augmented Generation (RAG).
 * **`module2/`** — Semantic Retrieval and Vector Indexing implementations.
-  * `code/` — Notebook practices exploring NumPy matrix math, `minsearch` logic, and Reciprocal Rank Fusion (RRF) rankings.
-  * `embed/` — Implementation runtime files for `sentence-transformers` and optimized ONNX models.
+  * `homework/` — Dedicated folder containing Module 2 assignment and evaluation notebooks.
+  * `*.ipynb` — Step-by-step lesson notebooks covering semantic search, embedding generation, and databases like PGVector.
 * **`pyproject.toml`** — Global project configuration file managing dependencies using `uv`.
-
 
 ## 🛠️ Tech Stack
 
