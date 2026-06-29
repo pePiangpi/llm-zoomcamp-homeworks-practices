@@ -2,25 +2,31 @@
 
 This is my personal workspace for the DataTalksClub LLM Zoomcamp course. It contains my homework assignments, practice code, and hands-on experiments for building production-ready LLM and RAG applications.
 
+
 ## 📁 Repository Structure
 
-* **`module1`
-* /`** — All assignments, local scripts, and notebooks for Module 1.
+* **`module1/`** — All assignments, local scripts, and notebooks for structural Retrieval-Augmented Generation (RAG).
+* **`module2/`** — Semantic Retrieval and Vector Indexing implementations.
+  * `code/` — Notebook practices exploring NumPy matrix math, `minsearch` logic, and Reciprocal Rank Fusion (RRF) rankings.
+  * `embed/` — Implementation runtime files for `sentence-transformers` and optimized ONNX models.
 * **`pyproject.toml`** — Global project configuration file managing dependencies using `uv`.
+
 
 ## 🛠️ Tech Stack
 
 * **Language:** Python
-* **Package Manager:** `uv`
-* **Search Engine:** `minsearch`
-* **LLM Orchestration:** Custom RAG pipelines
+* **Package Manager:** `uv` (Managing global workspace dependencies)
+* **Search Engine & Retrieval:** `minsearch` (In-memory Lexical & Vector search)
+* **Vector Databases & Storage:** PostgreSQL with `pgvector`, SQLite (`sqlitesearch`)
+* **Embeddings & Inference:** `sentence-transformers`, ONNX Runtime (CPU-optimized inference)
+* **LLM Orchestration:** Custom RAG pipelines & Hybrid Search (Reciprocal Rank Fusion)
 
 ## 📝 Course & Homework Tracking
 
 * **Module 1: Agentic RAG** — Introduction to RAG, token counting, and basic retrieval
   * [ ] [Homework 1](module1/homework1)
 * **Module 2: Vector Search** — Semantic search with embeddings, PGVector, and minsearch
-  * [ ] Homework 2 *(Coming Soon)*
+  * [ ] [Homework 2](module2/homework2)
 * **Module 3: Orchestration** — AI orchestration pipelines using Kestra
   * [ ] Homework 3 *(Coming Soon)*
 * **Module 4: Evaluation** — Measuring retrieval and answer quality using LLM-as-a-Judge
