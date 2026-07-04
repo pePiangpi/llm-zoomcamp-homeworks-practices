@@ -1,0 +1,17 @@
+id: nyc_taxi_bq
+namespace: zoomcamp
+
+tasks:
+  - id: download_nyc_taxi_csv
+    type: io.kestra.plugin.core.http.Download
+    uri: https://raw.githubusercontent.com/kestra-io/examples/main/nyc_taxi_data.csv # Replace with the actual URL of your NYC taxi data CSV
+    saveAs: nyc_taxi_data.csv
+  - id: load_nyc_taxi_data
+    type: io.kestra.plugin.gcp.bigquery.Load
+    from: "{{ outputs.download_nyc_taxi_csv.uri }}"
+    destinationTable: my_project.my_dataset.nyc_taxi_data # IMPORTANT: Replace with your actual BigQuery project, dataset, and table name
+    format: CSV
+    csvOptions:
+      fieldDelimiter: ","
+      skipLeadingRows: 1
+      allowQuotedNewLines: false
