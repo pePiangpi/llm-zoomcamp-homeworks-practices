@@ -28,4 +28,4 @@ uv.lock
 
 # IDEs / Editors
 .vscode/
-.idea/
+.idea/.env
