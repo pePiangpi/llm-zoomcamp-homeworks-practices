@@ -4,14 +4,20 @@ This is my personal workspace for the DataTalksClub LLM Zoomcamp course. It cont
 
 ## 📁 Repository Structure
 
-* **`module1/`** — All assignments, local scripts, and notebooks for structural Retrieval-Augmented Generation (RAG).
-* **`module2/`** — Semantic Retrieval and Vector Indexing implementations.
-  * `homework/` — Dedicated folder containing Module 2 assignment and evaluation notebooks.
+* **[`module1/`](./module1/)** — All assignments, local scripts, and notebooks for structural Retrieval-Augmented Generation (RAG).
+* **[`module2/`](./module2/)** — Semantic Retrieval and Vector Indexing implementations.
+  * [`homework2/`](./module2/homework2/) — Dedicated folder containing Module 2 assignment and evaluation notebooks.
   * `*.ipynb` — Step-by-step lesson notebooks covering semantic search, embedding generation, and databases like PGVector.
-* **`pyproject.toml`** — Global project configuration file managing dependencies using `uv`.
-* **`module3/`** — Workflow automation, task pipelines, and AI orchestration using Kestra.
-  * `homework/` — Dedicated folder containing Module 3 assignment workflows and execution logs.
+* **[`pyproject.toml`](./pyproject.toml)** — Global project configuration file managing dependencies using `uv`.
+* **[`module3/`](./module3/)** — Workflow automation, task pipelines, and AI orchestration using Kestra.
+  * — Dedicated folder containing Module 3 assignment workflows and execution logs.
   * `*.yaml` — Step-by-step pipeline configurations covering context engineering, RAG validation, and agent token tracking. 
+* **[`module4/`](./module4/)** — Testing and improving search performance. This module implements a rigorous evaluation framework to measure search accuracy using metrics like Hit Rate and Mean Reciprocal Rank (MRR). It covers ground truth construction, Reciprocal Rank Fusion (RRF) tuning, and systematic performance testing to replace manual guesswork.
+
+  * [`homework4/`](./module4/homework4/) — Contains the hands-on evaluation notebooks, datasets, and experiment logs generated during the testing process.
+
+pyproject.toml — File that manages all the project tools and versions.
+
 
 ## 🛠️ Tech Stack
 
@@ -33,7 +39,7 @@ This is my personal workspace for the DataTalksClub LLM Zoomcamp course. It cont
 * **Module 3: Orchestration** — AI orchestration pipelines using Kestra
   * [ ] [Homework 3](module3)
 * **Module 4: Evaluation** — Measuring retrieval and answer quality using LLM-as-a-Judge
-  * [ ] Homework 4 *(Coming Soon)*
+  * [ ] [Homework 4](module4/homework4/)
 * **Module 5: Monitoring** — Tracking user feedback and system health with live dashboards
   * [ ] Homework 5 *(Coming Soon)*
 * **Module 6: Best Practices** — Hybrid search (vector + keyword) and reranking techniques
