@@ -6,7 +6,7 @@ In this module, we transition from building RAG systems to measuring their actua
 
 ## 📂 Directory Structure
 
-* [`homework4/`](./homework4/) — Dedicated folder containing my Module 4 homework and evaluation notebooks.
+* [`homework4/`](./homework4/homework4.ipynb) — Dedicated folder containing my Module 4 homework and evaluation notebooks.
 * `*.ipynb` — Step-by-step lesson notebooks covering evaluation metrics, RAG assessment, and search optimization.
 
 ---
