@@ -15,7 +15,9 @@ This is my personal workspace for the DataTalksClub LLM Zoomcamp course. It cont
   * `*.yaml` — Step-by-step pipeline configurations covering context engineering, RAG validation, and agent token tracking. 
 * **[`module4/`](./module4/)** — Testing and improving search performance. This module implements a rigorous evaluation framework to measure search accuracy using metrics like Hit Rate and Mean Reciprocal Rank (MRR). It covers ground truth construction, Reciprocal Rank Fusion (RRF) tuning, and systematic performance testing to replace manual guesswork.
   * [`homework4/`](./module4/homework4/homework4.ipynb) — Contains the hands-on evaluation notebooks, datasets, and experiment logs generated during the testing process.
-
+* **[`module5/`](./module5/)** — Monitoring and observability. Implements OpenTelemetry (OTel) instrumentation for RAG pipelines, capturing tokens and latencies as span attributes, and building a custom SQLite span exporter and trace analysis dashboard.
+  * [`traces.db`](./module5/llm-zoomcamp-hw5/traces.db) — SQLite database recording execution spans, tool calls, and token metrics.
+  
 pyproject.toml — File that manages all the project tools and versions.
 
 
@@ -30,6 +32,7 @@ pyproject.toml — File that manages all the project tools and versions.
 * **Embeddings & Inference:** `sentence-transformers`, ONNX Runtime (CPU-optimized inference)
 * **LLM Orchestration:** Custom RAG pipelines & Hybrid Search (Reciprocal Rank Fusion)
 * **Evaluation & Metrics:** Hit Rate, Mean Reciprocal Rank (MRR), and Ground Truth performance benchmarking
+* **Observability & Monitoring:** OpenTelemetry (OTel), Custom SQLite Exporters, Span Tracing, Token & Latency Tracking
 
 
 ## 📝 Course & Homework Tracking
@@ -43,7 +46,7 @@ pyproject.toml — File that manages all the project tools and versions.
 * **Module 4: Evaluation** — Measuring retrieval and answer quality using LLM-as-a-Judge
   * [✅] [Homework 4](module4/homework4/homework4.ipynb)
 * **Module 5: Monitoring** — Tracking user feedback and system health with live dashboards
-  * [ ] Homework 5 *(Coming Soon)*
+  * [✅] [Homework 5](module5/llm-zoomcamp-hw5/homework5.py)
 * **Module 6: Best Practices** — Hybrid search (vector + keyword) and reranking techniques
   * [ ] Homework 6 *(Coming Soon)*
 * **Module 7: End-to-End Project** — Implementing a complete fitness assistant workflow
